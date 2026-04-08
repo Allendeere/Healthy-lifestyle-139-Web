@@ -92,11 +92,12 @@
       }
 
       const buildUrl = "Build";
-      const loaderUrl = buildUrl + "/Healthy lifestyle 139 Build.loader.js";
+      const buildVersion = "20260408_2";
+      const loaderUrl = buildUrl + "/Healthy lifestyle 139 Build.loader.js?v=" + buildVersion;
       const config = {
-        dataUrl: buildUrl + "/Healthy lifestyle 139 Build.data",
-        frameworkUrl: buildUrl + "/Healthy lifestyle 139 Build.framework.js",
-        codeUrl: buildUrl + "/Healthy lifestyle 139 Build.wasm",
+        dataUrl: buildUrl + "/Healthy lifestyle 139 Build.data?v=" + buildVersion,
+        frameworkUrl: buildUrl + "/Healthy lifestyle 139 Build.framework.js?v=" + buildVersion,
+        codeUrl: buildUrl + "/Healthy lifestyle 139 Build.wasm?v=" + buildVersion,
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "Healthy lifestyle 139",
@@ -144,3 +145,5 @@
     </script>
   </body>
 </html>
+
+
